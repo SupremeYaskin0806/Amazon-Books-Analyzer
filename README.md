@@ -153,7 +153,7 @@ The dashboard provides:
 
 ## 📁 Project Structure
 
-
+'''text
 Amazon-Books-Analyzer/
 │
 ├── data/
@@ -173,6 +173,7 @@ Amazon-Books-Analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+'''
 
 
 ## ⚙️ Installation & Setup
