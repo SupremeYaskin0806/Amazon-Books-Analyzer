@@ -4,7 +4,7 @@ An interactive Python-based Exploratory Data Analysis (EDA) project analyzing Am
 
 ## 🚀 Live Demo
 
-🔗 **[Open Amazon Books Analyzer](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrff8.streamlit.app/)**
+🔗 **[Open Amazon Books Analyzer](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrffr8.streamlit.app)**
 
 The project is deployed using **Streamlit Community Cloud** and provides an interactive dashboard with dataset filters, statistics, visualizations, and key insights.
 
@@ -147,7 +147,7 @@ The dashboard provides:
 
 ### Try the application:
 
-👉 **[Amazon Books Analyzer – Live Demo](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrff8.streamlit.app/)**
+👉 **[Amazon Books Analyzer – Live Demo](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrffr8.streamlit.app)**
 
 ---
 
