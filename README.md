@@ -1,30 +1,44 @@
-# Amazon Books Analyzer
+# 📚 Amazon Books Analyzer
 
-A Python-based Exploratory Data Analysis project analyzing Amazon bestselling books to identify trends in ratings, reviews, pricing, genres, authors, and publication years.
+An interactive Python-based Exploratory Data Analysis (EDA) project analyzing Amazon bestselling books to identify trends in ratings, reviews, pricing, genres, authors, and publication years.
 
-## Project Overview
+## 🚀 Live Demo
 
-This project performs Exploratory Data Analysis (EDA) on an Amazon bestselling books dataset containing 550 records.
+🔗 **[Open Amazon Books Analyzer](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrff8.streamlit.app/)**
+
+The project is deployed using **Streamlit Community Cloud** and provides an interactive dashboard with dataset filters, statistics, visualizations, and key insights.
+
+---
+
+## 📌 Project Overview
+
+This project performs Exploratory Data Analysis on an Amazon bestselling books dataset containing **550 records**.
 
 The analysis explores:
 
-- Book ratings and reviews
-- Book pricing trends
-- Bestseller appearances by author
-- Fiction vs Non-Fiction distribution
-- Year-wise publishing trends
-- Relationships between ratings, reviews, price, and publication year
-- Highly rated and highly reviewed books
+- ⭐ Book ratings and reviews
+- 💰 Book pricing trends
+- ✍️ Bestseller appearances by author
+- 📖 Fiction vs Non-Fiction distribution
+- 📅 Year-wise publishing trends
+- 📊 Relationships between ratings, reviews, price, and publication year
+- 🔥 Highly rated and highly reviewed books
 
-## Technologies Used
+---
 
-- Python
-- Pandas
-- Matplotlib
+## 🛠️ Technologies Used
 
-## Dataset
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Streamlit**
 
-The dataset contains the following attributes:
+---
+
+## 📂 Dataset
+
+The dataset contains **550 Amazon bestselling book records** with the following attributes:
 
 | Column | Description |
 |---|---|
@@ -36,7 +50,9 @@ The dataset contains the following attributes:
 | `Year` | Publication year |
 | `Genre` | Fiction or Non Fiction |
 
-## Analysis Performed
+---
+
+## 🔎 Analysis Performed
 
 ### Exploratory Data Analysis
 
@@ -51,14 +67,14 @@ The dataset contains the following attributes:
 - Year-wise analysis
 - Unique book analysis
 
-### Data Cleaning
+### 🧹 Data Cleaning
 
 - Checked for duplicate records
 - Checked for missing values
 - Removed duplicate records
 - Created a cleaned dataset for analysis
 
-### Statistical Analysis
+### 📊 Statistical Analysis
 
 - Correlation between ratings, reviews, price, and year
 - Average rating by genre
@@ -67,7 +83,9 @@ The dataset contains the following attributes:
 - Books published each year
 - Top books based on ratings and reviews
 
-## Key Findings
+---
+
+## 💡 Key Findings
 
 - The dataset contains **550 records**.
 - There are **351 unique book titles**.
@@ -78,34 +96,11 @@ The dataset contains the following attributes:
 - *Where the Crawdads Sing* has the highest number of reviews with **87,841 reviews**.
 - **Jeff Kinney** has the highest number of bestseller appearances among the analyzed authors.
 
-## Visualizations
+---
 
-The project uses Matplotlib to visualize:
+## 📈 Visualizations
 
-- Fiction vs Non-Fiction book distribution
-- Top 10 authors by bestseller appearances
-- Book ratings vs number of reviews
-- Average user rating by genre
-- Average book price by genre
-- Number of bestselling books by year
-- Average user rating by year
-- Top 10 most reviewed books
-
-## Project Structure
-
-
-Amazon-Books-Analyzer/
-│
-├── data/
-│   └── bestsellers with categories.csv
-│
-├── analysis.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
-## Visualizations
+The project uses Matplotlib to generate the following visualizations:
 
 ### Genre Distribution
 
@@ -134,3 +129,47 @@ Amazon-Books-Analyzer/
 ### Top 10 Most Reviewed Books
 
 ![Top 10 Most Reviewed Books](Images/top_10_most_reviewed_books.png)
+
+---
+
+## 🌐 Interactive Streamlit Dashboard
+
+The project also includes an interactive web application built with Streamlit.
+
+The dashboard provides:
+
+- 📊 Key statistics
+- 📚 Complete books dataset
+- 🔍 Genre filtering
+- 📅 Year filtering
+- 💡 Key insights
+- 📈 Interactive data visualizations
+
+### Try the application:
+
+👉 **[Amazon Books Analyzer – Live Demo](https://amazon-books-analyzer-bz7s7y2mhony4zfvkrff8.streamlit.app/)**
+
+---
+
+## 📁 Project Structure
+
+
+Amazon-Books-Analyzer/
+│
+├── data/
+│   └── bestsellers with categories.csv
+│
+├── Images/
+│   ├── genre_distribution.png
+│   ├── top_authors.png
+│   ├── ratings_vs_reviews.png
+│   ├── average_rating_by_genre.png
+│   ├── average_price_by_genre.png
+│   ├── books_published_by_year.png
+│   └── top_10_most_reviewed_books.png
+│
+├── analysis.py
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
