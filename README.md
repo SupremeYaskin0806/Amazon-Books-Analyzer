@@ -171,6 +171,8 @@ Amazon-Books-Analyzer/
 ├── analysis.py
 ├── app.py
 ├── requirements.txt
+├── README.md
+└── .gitignore
 
 
 ## ⚙️ Installation & Setup
@@ -180,28 +182,3 @@ Amazon-Books-Analyzer/
 ```bash
 git clone https://github.com/SupremeYaskin0806/Amazon-Books-Analyzer.git
 cd Amazon-Books-Analyzer
-
-python -m venv venv
-
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-python -m streamlit run app.py
-
-http://localhost:8501
-
-
-Replace `YOUR_STREAMLIT_APP_URL` with your actual `.streamlit.app` link.
-
-**Don't worry about actually cloning it right now** — those instructions are for someone else who downloads your project from GitHub.
-
-Your local project is already working.
-
-### After this
-
-We'll do one final check of the GitHub README and then your project is **submission-ready**. 🚀
-
-
-├── README.md
-└── .gitignore
