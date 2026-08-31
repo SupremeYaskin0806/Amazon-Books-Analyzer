@@ -103,3 +103,34 @@ Amazon-Books-Analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+
+## Visualizations
+
+### Genre Distribution
+
+![Genre Distribution](Images/genre_distribution.png)
+
+### Top Authors
+
+![Top Authors](Images/top_authors.png)
+
+### Ratings vs Reviews
+
+![Ratings vs Reviews](Images/ratings_vs_reviews.png)
+
+### Average Rating by Genre
+
+![Average Rating by Genre](Images/average_rating_by_genre.png)
+
+### Average Price by Genre
+
+![Average Price by Genre](Images/average_price_by_genre.png)
+
+### Books Published by Year
+
+![Books Published by Year](Images/books_published_by_year.png)
+
+### Top 10 Most Reviewed Books
+
+![Top 10 Most Reviewed Books](Images/top_10_most_reviewed_books.png)
