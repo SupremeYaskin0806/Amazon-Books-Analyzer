@@ -93,7 +93,7 @@ The project uses Matplotlib to visualize:
 
 ## Project Structure
 
-```text
+
 Amazon-Books-Analyzer/
 │
 ├── data/
